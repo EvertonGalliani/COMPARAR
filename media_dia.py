@@ -2,11 +2,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-#print("Código da estação:")
-codigo = "IFLORI114"
+print("Código da estação:")
+codigo = input()
 ano = "2023"
-path = f'/home/sifapsc/scripts/scripts_everton/{codigo}_{ano}/'
-arch = f'dados_{codigo}_{ano}'
+path = f'/home/sifapsc/scripts/scripts_everton/COMPARAR'
+arch = f'/dados_{codigo}_{ano}.csv'
 csv = f"{path}{arch}"
 df = pd.read_csv(csv)
 #print(df)

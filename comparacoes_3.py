@@ -99,4 +99,4 @@ plt.savefig("comparacoes_3.png", dpi=300)
 
 # Exibindo o gráfico
 plt.show()
-
+print("Comparação concluída!")
